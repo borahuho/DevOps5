@@ -1,0 +1,31 @@
+
+
+
+
+Bash Scripting
+
+######################################
+
+1. Make a scripts that gives a echo "${USER} you are the best"
+
+## Note make the script executable ##
+
+2. Make a script that echo's your name and your home directory
+
+## note make use of the $user and $home variable
+
+3. Make 3 variable with the READ command in a script  
+
+4. Make a script that echo the current date, with the format (date,month,year,hour,minute)
+
+5. Make a script that makes a back-up from the home directory. The back-up most be placed in the directory /back-up with the time the back-up is made
+
+6. Make a script that copy's all .log from the sshd
+
+######################################
+
+Write down all scripts in your own home directory
+
+
+
+
