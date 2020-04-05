@@ -9,7 +9,6 @@ SCRIPT
 
 
 Vagrant.configure('2') do |config|
-    config.ssh.insert_key = false
 
     # set default settings
     config.vm.box = "ubuntu/bionic64"
@@ -28,7 +27,6 @@ Vagrant.configure('2') do |config|
         end
 
         machine.vm.synced_folder "DevOps5/", "/home/vagrant/mission"
-        machine.vm.provision "file", source: "~/.vagrant.d/insecure_private_key", destination: "$HOME/.ssh/id_rsa"
     end
 end
 
